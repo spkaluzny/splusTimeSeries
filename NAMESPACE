@@ -1,0 +1,145 @@
+useDynLib(splusTimeSeries, .registration=TRUE)
+
+## Import non-base functions we need explicitly,
+## notably for which we define methods:
+
+import(splusTimeDate)
+
+importFrom("methods",
+    callGeneric,
+    ## still needed {group generics needed to be explicitly imported} ?
+    Ops, Arith, Compare, Logic, Math, Math2, Summary, Complex,
+    ## generics for which we export new methods:
+    coerce, show, is, as, new
+)
+
+importFrom("graphics", "par")
+
+importFrom("stats", "is.ts", "lag", "tsp", "tsp<-")
+
+## Generics and functions defined in this package
+export(## generics
+    seriesLag,
+    seriesLength,
+    colIds,
+    "colIds<-",
+    rowIds,
+    "rowIds<-",
+    "nrow<-",
+    "ncol<-",
+    numCols,
+    "numCols<-",
+    numRows,
+    "numRows<-",
+    subscript2d,
+    "subscript2d<-",
+#   .splusTimeSeriesOptions,
+#   axis.break.table,
+#   axis.tick.table,
+#   axis.label.table,
+#   axis.compute.time.breaks,
+#   axis.line.render,
+#   axis.numeric,
+#   axis.render,
+#   axis.time,
+#   axis.time.build,
+#   axis.time.breaks,
+#   axis.time.grid,
+#   axis.time.label.format,
+#   axis.time.labels,
+#   axis.time.scale,
+#   axis.time.ticks,
+    aggregateSeries,
+    align,
+    asSeriesData,
+    as.char.rect,
+    as.rectangular,
+#   breaks.render,
+#   grid.render,
+    hloc,
+#   hloc.render,
+    is.rectangular,
+#   labels.render,
+#   lines.render,
+#   mtext.no.overlap,
+#   parse.signal.dotargs,
+#   parse.time.series.dotargs,
+#   plot.signalSeries,
+#   plot.size.scale,
+#   plot.timeSeries,
+#   plotTimeDate,
+    positions,
+    "positions<-",
+#   pretty.log,
+    seriesData,
+    seriesDataNew,
+    "seriesData<-",
+    seriesDataValid,
+    seriesMerge,
+    shift,
+    signalSeries,
+#   stackbar.render,
+#   ticks.render,
+    timeSeries,
+#   timeSeriesOptions,
+    ts.update,
+    unionPositions
+#   user.to.plot
+)
+
+exportClasses(
+    "seriesVirtual",
+    "series",
+    "timeSeries",
+    "signalSeries"
+)
+
+exportMethods(## for both own and "other" generics:
+    ## Group Methods
+    "Compare",
+    "Math",
+    "Math2",
+    "Ops",
+    "Summary",
+    ## re-export S4 methods, for "stats"-S3-generics:
+    "[",
+    "[<-",
+    "aggregate",
+    "c",
+    "coerce",
+    "cor",
+    "cut",
+    "deltat",
+    "diff",
+    "dim",
+    "dimnames",
+    "dimnames<-",
+    "duplicated",
+    "end",
+    "frequency",
+    "format",
+    "length",
+    "logb",
+    "mean",
+    "median",
+    "names",
+    "names<-",
+    "nrow",
+    "ncol",
+    "quantile",
+    "row.names",
+    "row.names<-",
+    "shift",
+    "shiftPositions",
+    "show",
+    "sort",
+    "sort.list",
+    "start",
+    "summary",
+    "units",
+    "window",
+    "var"
+)
+
+S3method(as.data.frame, timeSeries)
+S3method(as.data.frame, signalSeries)
