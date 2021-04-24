@@ -1,16 +1,14 @@
 Package: splusTimeSeries
-Version: 1.5.0-75
-Date: 2018-05-25
+Version: 1.5.1
 Title: Time Series from S-PLUS
-Description: A collection of classes and methods for working with time series.
-  The code was originally available in S-PLUS.
-Author: TIBCO Software Inc.
-Maintainer: Stephen Kaluzny <skaluzny@tibco.com>
 Depends: R (>= 2.10), splusTimeDate
 Imports: graphics, methods, stats
-LazyData: no
+Author: TIBCO Software Inc.
+Maintainer: Stephen Kaluzny <spkaluzny@gmail.com>
+Description: A collection of classes and methods for working with time series.
+  The code was originally available in S-PLUS.
 License: BSD_3_clause + file LICENSE
+URL: https://github.com/spkaluzny/splusTimeSeries
+BugReports: https://github.com/spkaluzny/splusTimeSeries/issues
+LazyData: no
 NeedsCompilation: yes
-Repository: CRAN
-Packaged: 2018-05-26 17:45:54 UTC; spk
-Date/Publication: 2018-05-29 16:33:01 UTC
