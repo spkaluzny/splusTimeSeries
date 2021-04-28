@@ -58,12 +58,12 @@ function(x, pos, how = "NA", error.how = "NA", localzone = FALSE, matchtol = 0,
   ## returns a list of (indexes for NA, indexes to drop, subscript or
   ## interpolation weights)
   if(is(pos, "positionsCalendar")) {
-    how.align <- splusTimeDate:::timealign(origpos, newpos, how, error.how,
+    how.align <- splusTimeDate::.timealign(origpos, newpos, how, error.how,
         matchtol)
   }
   else {
     ##pos = as(pos, "numericSequence")
-    how.align <- splusTimeDate:::numalign(origpos, newpos, how, error.how,
+    how.align <- splusTimeDate::.numalign(origpos, newpos, how, error.how,
         matchtol)
   }
   keeprows <- !how.align[[2]]
