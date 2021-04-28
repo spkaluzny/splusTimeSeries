@@ -4,7 +4,7 @@
 \alias{tbauc.1y}
 \docType{data}
 \title{
-  Treasury Bill Auction Rates
+Treasury Bill Auction Rates
 }
 \description{
 Treasury Bill auction rate data
@@ -38,8 +38,8 @@ monthly intervals.
 }
 }
 \source{
-  From the web site of the Federal Reserve
-  Bank, \url{http://www.federalreserve.gov/releases/h15/data.htm}.
+From the web site of the Federal Reserve Bank,
+\url{https://www.federalreserve.gov/releases/h15/data.htm}.
 }
 \keyword{datasets}
 

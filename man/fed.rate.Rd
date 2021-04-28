@@ -1,11 +1,11 @@
 \name{fed.rate}
 \alias{fed.rate}
 \title{
-  Federal Reserve Interest Rates
+Federal Reserve Interest Rates
 }
 \description{
 Interest rate data from the web site of the Federal Reserve Bank,
-http://www.federalreserve.gov/releases/h15/data.htm,
+\url{https://www.federalreserve.gov/releases/h15/data.htm},
 running from 1972 to 1997.  
 
 You can find more information on that web site. 

@@ -2,17 +2,17 @@
 \alias{tcm.curve}
 \docType{data}
 \title{
-  Treasury Constant Maturity Curve
+Treasury Constant Maturity Curve
 }
 \description{
-  Treasury Constant Maturity Curve data
+Treasury Constant Maturity Curve data
 running from 1982 to 1997.  
 The Constant Maturity Curve data come from yield curves
 constructed by the U.S. Treasury Department from the
 yields of actively traded issues adjusted to constant maturities.
 }
 \format{
-\code{tcm.curve}  is a multivariate \code{timeSeries} object with the following columns:
+\code{tcm.curve} is a multivariate \code{timeSeries} object with the following columns:
 
 \describe{
 
@@ -58,8 +58,7 @@ in less than 10 years, also calculated by the Treasury Department.
 }
 }
 \source{
-  From the web site of the
-  Federal Reserve Bank,
-  \url{http://www.federalreserve.gov/releases/h15/data.htm}.
+From the web site of the Federal Reserve Bank,
+\url{https://www.federalreserve.gov/releases/h15/data.htm}.
 }
 \keyword{datasets}

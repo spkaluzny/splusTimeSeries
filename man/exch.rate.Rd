@@ -14,16 +14,9 @@ Exchange rates between the US Dollar and the
 }
 in a multi-variate time series.
 
-Data from Andreas S. Weigend, Bernardo A.
-Huberman, and David
-E. Rumelhart, "Predicting Sunspots and Exchange Rates with
-Connectionist Networks", pp. 395-432 in M. Casdagli and S.
-Eubank, eds, Nonlinear Modeling and Forecasting, Addison-Wesley,
-1992.  
-
-Extracted from the Andreas Weigend web site
-http://www.stern.nyu.edu/~aweigend/Time-Series/TSWelcome.html.
+Data from Andreas S. Weigend, Bernardo A.  Huberman, and David E. Rumelhart,
+"Predicting Sunspots and Exchange Rates with Connectionist Networks",
+pp. 395-432 in M. Casdagli and S.  Eubank, eds,
+Nonlinear Modeling and Forecasting, Addison-Wesley, 1992.  
 }
 \keyword{sysdata}
-% docclass is function
-% Converted by mySd2Rd version 47442.
