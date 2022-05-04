@@ -18,10 +18,10 @@ a vector for which to calculate high, low, open, and close.
 }
 \value{
 returns a vector with four elements: 
-\item{}{the maximum value in \code{x}.}
-\item{}{the minimum value in \code{x}.}
-\item{}{the first value of \code{x}.}
-\item{}{the last value of \code{x}.}  
+\item{high}{the maximum value in \code{x}.}
+\item{low}{the minimum value in \code{x}.}
+\item{open}{the first value of \code{x}.}
+\item{close}{the last value of \code{x}.}  
 
 \code{x} can be an array, but dimensions are ignored.  
 }

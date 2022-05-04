@@ -86,9 +86,10 @@ function(x, pos, how = "NA", error.how = "NA", localzone = FALSE, matchtol = 0,
       subscript2d(newd, whereadd, ) <- subscript2d( newd, whereadd, ) +
         otherwt[ whereadd ] * subscript2d( otherdat, whereadd, )
     }
-    if((class(newd) == "numeric") && (class(newdata) == "integer")
-       )
+    # if((class(newd) == "numeric") && (class(newdata) == "integer")) {
+    if((inherits(newd, "numeric")) && (inherits(newdata, "integer"))) {
       newdata <- as(newdata, "numeric")
+    }
     subscript2d(newdata, needrows,  ) <- newd
   }
   else subscript2d(newdata, needrows,  ) <-
