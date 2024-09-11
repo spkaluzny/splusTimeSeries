@@ -1,6 +1,6 @@
 Package: splusTimeSeries
 Version: 1.5.6
-Title: Time Series from S-PLUS
+Title: Time Series from 'S-PLUS'
 Depends: R (>= 2.10), splusTimeDate (>= 2.5.2)
 Imports: graphics, methods, stats
 Authors@R:
@@ -11,7 +11,7 @@ Authors@R:
       person(given = "TIBCO Software Inc.",
            role=c("aut", "cph")))
 Description: A collection of classes and methods for working with time series.
-  The code was originally available in S-PLUS.
+  The code was originally available in 'S-PLUS'.
 License: BSD_3_clause + file LICENSE
 URL: https://github.com/spkaluzny/splusTimeSeries
 BugReports: https://github.com/spkaluzny/splusTimeSeries/issues
