@@ -32,7 +32,9 @@ with duplicates (as defined by \code{matchtol} and \code{localzone}) removed.
 Returns \code{numeric(0)} if no \code{...} arguments are given.
 }
 \seealso{
-\code{\linkS4class{positions}} class, \code{\link{align}}, \code{\link{seriesMerge}}. 
+\code{\link{positions}},
+\code{\link{align}},
+\code{\link{seriesMerge}}. 
 }
 \examples{
 unionPositions(1:10, 5:20)

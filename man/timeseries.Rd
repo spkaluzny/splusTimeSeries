@@ -83,8 +83,7 @@ timeSeries(data, positions., units., from = timeCalendar(d = 1,
   }
 }
 \seealso{
-\code{\linkS4class{timeSeries}} class,
-\code{\linkS4class{timeSequence}}.
+\code{\linkS4class{timeSeries}} class.
 }
 \examples{
 timeSeries( pos=timeCalendar( d=1:10 ), data = 1:10)

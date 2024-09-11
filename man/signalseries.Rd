@@ -35,8 +35,7 @@ signalSeries(data, positions., units, units.position, from = 1, by = 1)
   }
 }
 \seealso{
-  \code{\linkS4class{signalSeries}} class,
-  \code{\linkS4class{numericSequence}} class.
+  \code{\linkS4class{signalSeries}} class.
 }
 \examples{
 signalSeries( pos=1:10 , data = 1:10)
