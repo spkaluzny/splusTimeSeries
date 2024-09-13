@@ -1,5 +1,6 @@
 \name{fed.rate}
 \alias{fed.rate}
+\docType{data}
 \title{
 Federal Reserve Interest Rates
 }

@@ -1,5 +1,6 @@
 \name{exch.rate}
 \alias{exch.rate}
+\docType{data}
 \title{
   Foreign Exchange Rates
 }
