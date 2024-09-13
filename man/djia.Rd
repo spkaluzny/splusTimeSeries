@@ -24,8 +24,7 @@ An object of class \code{timeSeries} with the high, low, open and
   close prices stored as a \code{data.frame}.
 }
 \source{
-From Ohio State University web site,
-http://www.cob.ohio-state.edu/~fin/osudown.htm,
-downloaded in early 1990.
+Downloaded from the College of Business, Ohio State University
+web site in early 1990.
 }
 \keyword{datasets}
