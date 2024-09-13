@@ -15,7 +15,7 @@ An object of class \code{timeSeries} with the high and low prices
 stored as a \code{data.frame}.
 }
 \source{
-Downloaded from the College of Business, Ohio State University
+Downloaded from the Fisher College of Business, Ohio State University
 web site in early 1996.
 }
 \keyword{sysdata}
