@@ -116,7 +116,7 @@ holidays for business day sequences. (Ignored if \code{by} is not
 a character string or \code{pos} is given.)
 }
 \item{align.by}{
-a logical value. If \code{TRUE} (the default), adjustd the sequence so that each element is on a whole number
+a logical value. If \code{TRUE} (the default), adjusted the sequence so that each element is on a whole number
 of the \code{by * k.by} units. For example, if the units are 2 months, make the sequence
 be only on the first of January, March, and so on.  Ignored if
 \code{by} is not a character string. 

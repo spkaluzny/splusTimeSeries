@@ -19,7 +19,7 @@ an object of class \code{timeSeries}.
 returns the length of the \code{timeSeries}.
 }
 \note{
-  This function is distinquished from the \code{length} function, which returns
+  This function is distinguished from the \code{length} function, which returns
   the number of series in the \code{timeSeries} object.
 }
 \seealso{
