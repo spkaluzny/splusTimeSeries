@@ -2,9 +2,12 @@
 
 [![License: BSD_3_clause](https://img.shields.io/badge/license-BSD_3-blue.svg)](https://cran.r-project.org/web/licenses/BSD_3_clause)
 
-An R package with a collection of classes and methods for working
-with time series.
-The code was originally available in S-PLUS.
+
+A collection of classes and methods for working with
+indexed rectangular data. The index values can be
+calendar (timeSeries class) or numeric (signalSeries class).
+Methods are included for aggregation, alignment, merging, and summaries.
+The code was originally available in 'S-PLUS'.
 
 ### Installation
 
