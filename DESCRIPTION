@@ -1,5 +1,5 @@
 Package: splusTimeSeries
-Version: 1.5.6
+Version: 1.5.7
 Title: Time Series from 'S-PLUS'
 Depends: R (>= 2.10), splusTimeDate (>= 2.5.2)
 Imports: graphics, methods, stats
@@ -10,7 +10,10 @@ Authors@R:
            email = "spkaluzny@gmail.com"),
       person(given = "TIBCO Software Inc.",
            role=c("aut", "cph")))
-Description: A collection of classes and methods for working with time series.
+Description: A collection of classes and methods for working with
+  indexed rectangular data. The index values can be
+  calendar (timeSeries class) or numeric (signalSeries class).
+  Methods are included for aggregation, alignment, merging, and summaries.
   The code was originally available in 'S-PLUS'.
 License: BSD_3_clause + file LICENSE
 URL: https://github.com/spkaluzny/splusTimeSeries

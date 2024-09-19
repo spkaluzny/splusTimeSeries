@@ -82,11 +82,17 @@ timeSeries(data, positions., units., from = timeCalendar(d = 1,
     is not a character string, or if it is not \code{"weeks"}.
   }
 }
+\value{
+an object of class \code{"timeSeries"}.
+See the
+\code{\linkS4class{timeSeries}} class help file
+for the names and structure of the slots in the object.
+}
 \seealso{
 \code{\linkS4class{timeSeries}} class.
 }
 \examples{
-timeSeries( pos=timeCalendar( d=1:10 ), data = 1:10)
+timeSeries(pos=timeCalendar(d=1:10), data=1:10)
 timeSeries(data=data.frame(x=1:10, y=11:20), from="7/4/2000", by="bizdays")
 }
 \keyword{ts}

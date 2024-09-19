@@ -34,11 +34,17 @@ signalSeries(data, positions., units, units.position, from = 1, by = 1)
     the increment for the sequence.
   }
 }
+\value{
+an object of class \code{"signalSeries"}.
+See the
+\code{\linkS4class{signalSeries}} class help file
+for the names and structure of the slots in the object.
+}
 \seealso{
   \code{\linkS4class{signalSeries}} class.
 }
 \examples{
-signalSeries( pos=1:10 , data = 1:10)
+signalSeries(pos=1:10 , data=1:10)
 signalSeries(data=data.frame(x=1:10, y=11:20), from=2, by=2)
 }
 \keyword{ts}
