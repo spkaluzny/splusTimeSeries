@@ -31,8 +31,9 @@ R_init_splusTimeSeries(DllInfo *dll)
 #define RREGDEF(name)  R_RegisterCCallable("splusTimeSeries", #name, (DL_FUNC) name)
 
     splusTimeSeries_NS = R_FindNamespace(mkString("splusTimeSeries"));
-    if(splusTimeSeries_NS == R_UnboundValue)
-      error("missing 'splusTimeSeries' namespace: should never happen");
+    /* Remove use of R_UnboundValue as per CRAN 2026-04 */
+    /* if(splusTimeSeries_NS == R_UnboundValue)
+      error("missing 'splusTimeSeries' namespace: should never happen"); */
 
 #ifdef DEBUG_splusTimeSeries
     if(isEnvironment(splusTimeSeries_NS))
