@@ -6,7 +6,7 @@ Federal Reserve Interest Rates
 }
 \description{
 Interest rate data from the web site of the Federal Reserve Bank,
-\url{https://www.federalreserve.gov/releases/h15/data.htm},
+\url{https://www.federalreserve.gov/datadownload/Choose.aspx?rel=H15},
 running from 1972 to 1997.  
 
 You can find more information on that web site. 
